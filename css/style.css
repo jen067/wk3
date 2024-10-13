@@ -26,6 +26,7 @@ body{
     width: 75%;
 }
 
+/* header section  */
 header{
     display: flex;
     justify-content: space-between;
@@ -59,6 +60,7 @@ header{
     transform: rotate(90deg);
 }
 
+/* nav section */
 .nav-links{
     display: flex;
     list-style: none;
@@ -76,6 +78,7 @@ header{
     line-height: 1.5rem;
 }
 
+/* main section */
 main{
     margin-top: 1rem;
     width: 100%;
@@ -141,7 +144,7 @@ main{
 .box-contact p:first-child::after{
     content: '';
     display: block;
-    border: 1px solid var(--clr--txt);
+    border-top: .5px solid var(--clr--txt);
     margin: .5rem 0;
 }
 
@@ -154,6 +157,7 @@ main{
     flex-grow: 1;
 }
 
+/* footer section */
 footer{
     background-color: var(--clr--primary);
     width: 100%;
